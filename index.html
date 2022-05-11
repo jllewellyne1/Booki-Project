@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<title>Booki</title>
+    	<meta name="Author" content="Joel Llewellyn-Eaton">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="utf-8" />
+		<link 
+			href="css/style.css" type="text/css" rel="stylesheet" 
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/2f8a401a61.js" crossorigin="anonymous"></script>
+  	</head>
+  
+  	<body>
+		<header class="header_bar">
+
+			<nav class="header_nav">
+				<a id="logo_link" href="#">
+				<img src="images/logo/Booki.png" alt="Booki Logo" title="Booki logo"/>
+				</a>
+				<div class="header_nav_links">
+					<a href="#accom">Accommodations</a>
+					<a href="#activity">Activities</a>
+				</div>
+			</nav>
+
+			<aside class="subtitle">
+				<h2>Find a place for your dream vacation</h2>
+				<p>Downtown or in nature</p>
+			</aside>
+				
+			<aside class="search_bar">
+				<i class="fas fa-map-marker-alt search_icon"></i>
+				<input type="search" placeholder="Marseille, France" class="search_input">
+				<button type="button" class="search_button">
+					<i class="fas fa-search button_icon"></i>
+					<span class="button_text">Search</span>
+				</button>
+			</aside>
+			
+			<section class="filter_choices">
+				<h2 class="filter_title">Filters</h2>
+				<div class="filter_row">
+					<a class="filter_button" href="#">
+						<span class="filter_icon"><i class="fas fa-money-bill-wave"></i></span>
+						<span class="filter_text">Low cost</span>
+					</a>
+
+					<a class="filter_button" href="#">
+						<span class="filter_icon"><i class="fas fa-child"></i></span>
+						<span class="filter_text">Family-friendly</span>
+					</a>
+
+					<a class="filter_button" href="#">
+						<span class="filter_icon"><i class="fas fa-heart"></i></span>
+						<span class="filter_text">Romantic</span>
+					</a>
+
+					<a class="filter_button" href="#">
+						<span class="filter_icon"><i class="fas fa-dog"></i></span>
+						<span class="filter_text">Pets allowed</span> 
+					</a>
+				</div>
+			</section>
+			
+			<aside class="info">
+				<button class="info_icon">
+					<i class="fas fa-info"></i>
+				</button>
+				<p class="info_text">
+					More then 500 accommodations are available in this <br>city
+				</p>
+			</aside>
+		</header>
+          
+    	<main class="sections_container">
+			<div class="accom_container">
+      			<section class="accom_background" id="accom">
+        			<h2 class="accom_header">Accommodations in Marseille</h2>
+					<div class="row">
+						<div class="column">
+							<a class="accom_card" href="#">
+								<img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+								title="Auberge la Cannebière photo" style="width: 100%">
+								<div class="accom_card_text">
+									<h3><b>Auberge la Cannebière</b></h3>
+									<p>Night starting at<strong> 25€</strong></p>
+									<span class="blue_star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star grey_star"></i>
+									</span>
+								</div>
+							</a>
+						</div>					
+
+						<div class="column">
+							<a class="accom_card" href="#">
+								<img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+								title="Hôtel du Port photo" style="width: 100%">
+								<div class="accom_card_text">
+									<h3><b>Hôtel du Port</b></h3>
+									<p>Night starting at<strong> 52€</strong></p>
+									<span class="blue_star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</span>
+								</div>
+							</a>
+						</div>
+
+						<div class="column">
+							<a class="accom_card" href="#">
+								<img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+								title="Les Mouettes Hotel photo" style="width: 100%">
+								<div class="accom_card_text">
+									<h3><b>Les Mouettes Hotel</b></h3>
+									<p>Night starting at<strong> 76€</strong></p>
+									<span class="blue_star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star grey_star"></i>
+									</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="column">
+							<a class="accom_card" href="#">
+								<img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+								title="Hôtel de la Me photo" style="width: 100%">
+								<div class="accom_card_text">
+									<h3><b>Hôtel de la Mer</b></h3>
+									<p>Night starting at<strong> 25€</strong></p>
+									<span class="blue_star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star grey_star"></i>
+										<i class="fas fa-star grey_star"></i>
+									</span>
+								</div>
+							</a>
+						</div>
+
+						<div class="column">
+							<a class="accom_card" href="#">
+								<img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+								title="Auberge Le Panier photo" style="width: 100%">
+								<div class="accom_card_text">
+									<h3><b>Auberge Le Panier</b></h3>
+									<p>Night starting at<strong> 23€</strong></p>
+									<span class="blue_star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star grey_star"></i>
+									</span>
+								</div>
+							</a>
+						</div>
+
+						<div class="column">
+							<a class="accom_card" href="#">
+								<img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+								title="Hôtel Chez Amina photo" style="width: 100%">
+								<div class="accom_card_text">
+									<h3><b>Hôtel Chez Amina</b></h3>
+									<p>Night starting at<strong> 25€</strong></p>
+									<span class="blue_star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</span>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<aside>
+						<p class="show_more">Show More</p>
+        			</aside>
+     			</section>
+			</div>
+			
+      		<section class="pop_container" id="pop">
+				<div class="pop_background">
+					<div class="pop_header">
+						<h2 class="pop_header_text">Most Popular</h2>
+						<i class="fas fa-chart-line chart_icon"></i>
+					</div>
+					
+					<div class="pop_column">
+						<a class="pop_card" href="#">
+							<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+							title="Morning Sun Hotel photo" style="width: 40%">
+							<div class="pop_card_text">
+								<h3><b>Morning Sun Hotel</b></h3>
+								<p>Night starting at<strong> 128€</strong></p>
+								<span class="blue_star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</span>							
+							</div>
+						</a>
+
+						<a class="pop_card" href="#">
+							<img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+							title="Au Coeur de l'Eau Bed and Breakfast photo" style="width: 40%">
+							<div class="pop_card_text">
+								<h3><b>Au Coeur de l'Eau Bed and Breakfast</b></h3>
+								<p>Night starting at<strong> 71€</strong></p>
+								<span class="blue_star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star grey_star"></i>
+								</span>
+							</div>
+						</a>
+
+						<a class="pop_card" href="#">
+							<img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+							title="Tout Bleu et Blanc Hotel" style="width: 40%">
+							<div class="pop_card_text">
+								<h3><b>Tout Bleu et Blanc Hotel</b></h3>
+								<p>Night starting at<strong> 68€</strong></p>
+								<span class="blue_star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star grey_star"></i>
+								</span>
+							</div>		
+						</a>
+					</div>
+				</div>
+			</section>
+		</main> 
+
+    	<section class="activity_background" id="activity">
+			<h2 class="activity_header">Activities in Marseille</h2>
+			<div class="activity_container">
+				<div class="column">
+					<div class="activity_card port_card">
+						<a href="#">
+							<img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" title="Old Port photo">
+							<h3>Old Port</h3>
+						</a>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="activity_card pomegues_card">
+						<a href="#">
+							<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" title="Pomègues Fort photo">
+							<h3>Pomègues Fort</h3>
+						</a>
+					</div>
+					<div class="activity_card frioul_card">
+						<a href="#">
+							<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" title="Frioul Island photo">
+							<h3>Frioul Island</h3>
+						</a>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="activity_card calanques_card">
+						<a href="#">
+							<img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" title="Calanques National Park">
+							<h3>Calanques National Park</h3>
+						</a>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="activity_card notre_card">
+						<a href="#">
+							<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" title="Notre-Dame-de-la-Garde">
+							<h3>Notre-Dame-de-la-Garde</h3>
+						</a>
+					</div>
+					<div class="activity_card longchamp_card">
+						<a href="#">
+							<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" title="Longchamp Park">
+							<h3>Longchamp Park</h3>
+						</a>
+					</div>
+				</div>
+			</div>
+	    </section>
+
+    	<footer class="footer_background">
+      		<div class="footer_container">
+          		<div class="footer_header">
+              		<h3>About</h3>
+              		<a href="#">Site Map</a>
+              		<a href="#">General Terms and Conditions</a>
+              		<a href="#">Data and Privacy</a>
+          		</div>
+
+          		<div class="footer_header">
+              		<h3>Our Accommodations</h3>
+              		<a href="#">Quality Assessment</a>
+              		<a href="#">You have a hotel?</a>
+          		</div>
+
+          		<div class="footer_header">
+              		<h3>Assistance</h3>
+              		<a href="#">Help Desk</a>
+              		<a href="#">Contact Us</a>
+          		</div>
+      		</div>
+   		</footer>		
+  	</body>
+</html>
