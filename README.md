@@ -1,6 +1,6 @@
 # Booki-Project
 
-OpenClassrooms Project 2 on the Web Developer (Skills Bootcamp) Pathway
+OpenClassrooms Project 1 on the Web Developer (Skills Bootcamp) Pathway
 
 https://jllewellyne1.github.io/Booki-Project/
 
